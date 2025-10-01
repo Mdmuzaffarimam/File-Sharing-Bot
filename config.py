@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "23631217"))
 API_HASH = os.environ.get("API_HASH", "567c6df308dc6901790309499f729d12")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002486183403"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002358430928 -1002384432837"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6139759254"))
@@ -30,17 +30,18 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://samanthasaintf0:samanthas
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002761395296"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002761395296 -1002232443823 -1002745555397 -1002919416607"))
 JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","https://files.catbox.moe/1b3lde.jpg")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI Am A ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ For TV Shows. I Can Store Files And Other Users Can Access It From Provided Link.\n\n👨‍💻Powered By @Mrn_Officialx\n\n✅Any Request/Query/Feedback/Paid/Demo
+🧑‍🔧Contact >>> @MRN_CONTACT_BOT")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6139759254").split()):
+    for x in (os.environ.get("ADMINS", "6139759254 7473323779").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
