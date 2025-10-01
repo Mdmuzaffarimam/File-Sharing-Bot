@@ -37,8 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","https://files.catbox.moe/1b3lde.jpg")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI Am A ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ For TV Shows. I Can Store Files And Other Users Can Access It From Provided Link.\n\n👨‍💻Powered By @Mrn_Officialx\n\n✅Any Request/Query/Feedback/Paid/Demo
-🧑‍🔧Contact >>> @MRN_CONTACT_BOT")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\nI Am A ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ For TV Shows. I Can Store Files And Other Users Can Access It From Provided Link.\n\n👨‍💻Powered By @Mrn_Officialx\n\n✅Any Request/Query/Feedback/Paid/DDem\n🧑‍🔧Contact >>> @MRN_CONTACT_BOT</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6139759254 7473323779").split()):
